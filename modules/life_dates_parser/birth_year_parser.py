@@ -17,12 +17,14 @@ def run():
         birth_day_and_month = soup\
             .find_all(attrs={'class': 'plainlist'})[1]\
             .find('span', attrs={'class', 'no-wikidata'})\
-            .find_all('a')[0].text
+            .find_all('a')[0]\
+            .text
 
         birth_year = soup \
             .find_all(attrs={'class': 'plainlist'})[1]\
             .find('span', attrs={'class', 'no-wikidata'})\
-            .find_all('a')[1].text
+            .find_all('a')[1]\
+            .text
 
         # getting the result
         return birth_day_and_month + ' ' + birth_year
