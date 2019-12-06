@@ -15,7 +15,7 @@ def run():
         if request.status_code == 200:
 
             # getting day, month, year of birthday from a right block (biography)
-            soup = bs(request.content, 'html.parser')
+            soup = bs(request.content, 'lxml')
 
             # handling of index errors
             try:

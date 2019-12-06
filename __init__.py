@@ -8,4 +8,4 @@ from modules.life_dates_parser import duration_handler
 # print(links_constructor.run())
 # print(birth_year_parser.run())
 # print(ages_parser.run())
-print(duration_handler.run())
+duration_handler.run()

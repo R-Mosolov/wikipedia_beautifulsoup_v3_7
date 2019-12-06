@@ -10,7 +10,7 @@ def run():
     if request.status_code == 200:
 
         # getting all unordered lists
-        soup = bs(request.content, 'html.parser')
+        soup = bs(request.content, 'lxml')
         all_ul = soup\
             .find('div', attrs={'class', 'mw-category'})\
             .find_all('ul')
