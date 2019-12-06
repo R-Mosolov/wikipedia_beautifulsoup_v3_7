@@ -4,12 +4,12 @@ from modules import session_generator
 
 
 def run():
-
-    # generation a new session
     links_arr = links_constructor.run()
-    life_duration_arr = []
+    ages_arr = []
 
     for link in links_arr:
+
+        # generation a new session
         request = session_generator.run(link)
 
         if request.status_code == 200:
@@ -18,18 +18,17 @@ def run():
             soup = bs(request.content, 'html.parser')
 
             # handling of index errors
-            life_duration = ''
             try:
-                life_duration = soup\
+                age = soup\
                     .find_all('span', attrs={'class', 'nowrap'})[0]\
                     .text
             except IndexError:
                 pass
 
-            life_duration_arr.append(life_duration)
-
-            # getting the result
-            return life_duration_arr
+            ages_arr.append(age)
 
         else:
             return 'Connection error'
+
+    # getting the result
+    return ages_arr
