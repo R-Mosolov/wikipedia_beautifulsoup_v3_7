@@ -54,5 +54,3 @@ def run():
 
     else:
         return 'Connection error'
-
-
