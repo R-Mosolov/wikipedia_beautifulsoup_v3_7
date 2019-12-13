@@ -19,6 +19,4 @@ def run():
         if not age_in_bracket and not not_full_age:
             not_ages.append(age)
 
-    print(len(ages_in_brackets))
-    print(len(not_full_ages))
-    print(len(not_ages))
+    return [ages_in_brackets, not_full_ages, not_ages]
