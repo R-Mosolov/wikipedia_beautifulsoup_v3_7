@@ -8,6 +8,7 @@ from modules.life_dates_parser import duration_handler
 
 from modules.sciences_links_generator import links_targets_generator
 from modules.sciences_links_generator import full_links_generator
+from modules.sciences_links_generator import links_quality_tester
 
 # print(links_parser.run())
 # print(links_constructor.run())
@@ -16,4 +17,5 @@ from modules.sciences_links_generator import full_links_generator
 # print(ages_parser.run())
 # duration_handler.run()
 # print(links_ends_generator.run())
-print(full_links_generator.run())
+# print(full_links_generator.run())
+print(links_quality_tester.run())
