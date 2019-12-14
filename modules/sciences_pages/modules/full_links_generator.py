@@ -1,4 +1,4 @@
-from modules.sciences_links_generator import links_targets_generator
+from modules.sciences_pages.modules import links_targets_generator
 
 
 def run():

@@ -1,21 +1,12 @@
-from modules import links_parser
-from modules import links_constructor
-from modules import next_page_definer
+from modules import sciences_pages
+from modules import scientists_pages
+from modules import life_dates
 
-from modules.life_dates_parser import birth_year_parser
-from modules.life_dates_parser import ages_parser
-from modules.life_dates_parser import duration_handler
+print('\n===== ЭТАП №1. СБОР СТРАНИЦ НАУЧНЫХ НАПРАВЛЕНИЙ =====\n')
+sciences_pages.run()
 
-from modules.sciences_links_generator import links_targets_generator
-from modules.sciences_links_generator import full_links_generator
-from modules.sciences_links_generator import links_quality_tester
+print('===== ЭТАП №2. СБОР СТРАНИЦ УЧЕНЫХ =====\n')
+scientists_pages.run()
 
-# print(links_parser.run())
-# print(links_constructor.run())
-# print(next_page_definer.run())
-# print(birth_year_parser.run())
-# print(ages_parser.run())
-# duration_handler.run()
-# print(links_ends_generator.run())
-# print(full_links_generator.run())
-print(links_quality_tester.run())
+print('===== ЭТАП №3. СБОР И ОБРАБОТКА ВОЗРАСТОВ УЧЕНЫХ =====\n')
+life_dates.run()

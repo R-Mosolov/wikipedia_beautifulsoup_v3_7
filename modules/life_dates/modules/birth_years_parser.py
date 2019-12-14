@@ -1,12 +1,12 @@
 from bs4 import BeautifulSoup as bs
-from modules import links_constructor
+from modules.scientists_pages.modules import full_links_constructor
 from modules import session_generator
 
 
 def run():
 
     # generation a new session
-    links_arr = links_constructor.run()
+    links_arr = full_links_constructor.run()
     request = session_generator.run(links_arr[0])
 
     if request.status_code == 200:

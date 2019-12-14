@@ -8,11 +8,14 @@ def run():
 
     if request.status_code == 200:
 
-        # getting all unordered lists
+        # getting the part link
         soup = bs(request.content, 'lxml')
-        next_page_link = soup.find(title='Категория:Социологи по алфавиту')['href']
+        part_page_link = soup.find(title='Категория:Социологи по алфавиту')['href']
 
-        return next_page_link
+        # constructing the full link
+        full_page_link = 'https://ru.wikipedia.org' + part_page_link
+
+        return full_page_link
 
     else:
         return 'Connection error'

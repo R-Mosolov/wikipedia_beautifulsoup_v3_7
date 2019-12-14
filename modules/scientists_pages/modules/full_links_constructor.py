@@ -1,8 +1,8 @@
-from modules import links_parser
+from modules.scientists_pages.modules import links_parts_parser
 
 
 def run():
-    links_arr = links_parser.run()
+    links_arr = links_parts_parser.run()
     full_links = []
 
     for link in links_arr:

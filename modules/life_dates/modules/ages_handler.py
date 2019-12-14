@@ -1,4 +1,4 @@
-from modules.life_dates_parser.ages_arr import ages
+from modules.life_dates.modules.data.ages_arr import ages
 
 
 def run():

@@ -1,4 +1,4 @@
-from modules.sciences_links_generator import full_links_generator
+from modules.sciences_pages.modules import full_links_generator
 from modules import session_generator
 
 
