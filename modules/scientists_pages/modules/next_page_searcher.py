@@ -2,15 +2,15 @@ from bs4 import BeautifulSoup as bs
 from modules import session_generator
 
 
-def run():
+def run(link, sciencetist_type, following_page=1):
     # generation a new session
-    request = session_generator.run('https://ru.wikipedia.org/wiki/Категория:Социологи_по_алфавиту')
+    request = session_generator.run(link)
 
     if request.status_code == 200:
 
         # getting the part link
         soup = bs(request.content, 'lxml')
-        part_page_link = soup.find(title='Категория:Социологи по алфавиту')['href']
+        part_page_link = soup.find_all(title='Категория:' + sciencetist_type + ' по алфавиту')[following_page]['href']
 
         # constructing the full link
         full_page_link = 'https://ru.wikipedia.org' + part_page_link
