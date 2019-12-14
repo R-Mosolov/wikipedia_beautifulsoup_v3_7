@@ -1,4 +1,4 @@
-# Unfortunately, I didn't find a method for realization the function without "copy-paste". Sorry!
+# Unfortunately, the project author not found a method for realization the function without "copy-paste". Sorry!
 from modules.scientists_pages.modules import next_page_searcher
 
 
@@ -61,7 +61,7 @@ def run():
 
     # political_scientists
     political_scientists__page_1 = 'https://ru.wikipedia.org/wiki/Категория:Политологи_по_алфавиту'
-    political_scientists__page_2 = next_page_searcher.run(political_scientists__page_1, 'Политологи')
+    political_scientists__page_2 = next_page_searcher.run(political_scientists__page_1, 'Политологи', 0)
 
     # economists
     economists__page_1 = 'https://ru.wikipedia.org/wiki/Категория:Экономисты_по_алфавиту'
@@ -82,12 +82,60 @@ def run():
 
     # linguists
     linguists__page_1 = 'https://ru.wikipedia.org/wiki/Категория:Лингвисты_по_алфавиту'
-    linguists__page_2 = next_page_searcher.run(linguists__page_1, 'Лингвисты')
+    linguists__page_2 = next_page_searcher.run(linguists__page_1, 'Лингвисты', 0)
 
     # psychologists
     psychologists__page_1 = 'https://ru.wikipedia.org/wiki/Категория:Психологи_по_алфавиту'
-    psychologists__page_2 = next_page_searcher.run(psychologists__page_1, 'Психологи')
+    psychologists__page_2 = next_page_searcher.run(psychologists__page_1, 'Психологи', 0)
     psychologists__page_3 = next_page_searcher.run(psychologists__page_2, 'Психологи')
+
+    # literaturers
+    literaturers__page_1 = 'https://ru.wikipedia.org/wiki/Категория:Литературоведы_по_алфавиту'
+    literaturers__page_2 = next_page_searcher.run(literaturers__page_1, 'Литературоведы', 0)
+    literaturers__page_3 = next_page_searcher.run(literaturers__page_2, 'Литературоведы')
+    literaturers__page_4 = next_page_searcher.run(literaturers__page_3, 'Литературоведы')
+
+    # art_historians
+    art_historians__page_1 = 'https://ru.wikipedia.org/wiki/Категория:Искусствоведы_по_алфавиту'
+    art_historians__page_2 = next_page_searcher.run(art_historians__page_1, 'Искусствоведы', 0)
+
+    # teachers
+    teachers__page_1 = 'https://ru.wikipedia.org/wiki/Категория:Педагоги_по_алфавиту'
+    teachers__page_2 = next_page_searcher.run(teachers__page_1, 'Педагоги', 0)
+    teachers__page_3 = next_page_searcher.run(teachers__page_2, 'Педагоги')
+    teachers__page_4 = next_page_searcher.run(teachers__page_3, 'Педагоги')
+    teachers__page_5 = next_page_searcher.run(teachers__page_4, 'Педагоги')
+    teachers__page_6 = next_page_searcher.run(teachers__page_5, 'Педагоги')
+    teachers__page_7 = next_page_searcher.run(teachers__page_6, 'Педагоги')
+    teachers__page_8 = next_page_searcher.run(teachers__page_7, 'Педагоги')
+    teachers__page_9 = next_page_searcher.run(teachers__page_8, 'Педагоги')
+    teachers__page_10 = next_page_searcher.run(teachers__page_9, 'Педагоги')
+    teachers__page_11 = next_page_searcher.run(teachers__page_10, 'Педагоги')
+    teachers__page_12 = next_page_searcher.run(teachers__page_11, 'Педагоги')
+    teachers__page_13 = next_page_searcher.run(teachers__page_12, 'Педагоги')
+    teachers__page_14 = next_page_searcher.run(teachers__page_13, 'Педагоги')
+    teachers__page_15 = next_page_searcher.run(teachers__page_14, 'Педагоги')
+    teachers__page_16 = next_page_searcher.run(teachers__page_15, 'Педагоги')
+    teachers__page_17 = next_page_searcher.run(teachers__page_16, 'Педагоги')
+    teachers__page_18 = next_page_searcher.run(teachers__page_17, 'Педагоги')
+    teachers__page_19 = next_page_searcher.run(teachers__page_18, 'Педагоги')
+    teachers__page_20 = next_page_searcher.run(teachers__page_19, 'Педагоги')
+    teachers__page_21 = next_page_searcher.run(teachers__page_20, 'Педагоги')
+    teachers__page_22 = next_page_searcher.run(teachers__page_21, 'Педагоги')
+    teachers__page_23 = next_page_searcher.run(teachers__page_22, 'Педагоги')
+    teachers__page_24 = next_page_searcher.run(teachers__page_23, 'Педагоги')
+    teachers__page_25 = next_page_searcher.run(teachers__page_24, 'Педагоги')
+    teachers__page_26 = next_page_searcher.run(teachers__page_25, 'Педагоги')
+    teachers__page_27 = next_page_searcher.run(teachers__page_26, 'Педагоги')
+    teachers__page_28 = next_page_searcher.run(teachers__page_27, 'Педагоги')
+    teachers__page_29 = next_page_searcher.run(teachers__page_28, 'Педагоги')
+    teachers__page_30 = next_page_searcher.run(teachers__page_29, 'Педагоги')
+    teachers__page_31 = next_page_searcher.run(teachers__page_30, 'Педагоги')
+    teachers__page_32 = next_page_searcher.run(teachers__page_31, 'Педагоги')
+    teachers__page_33 = next_page_searcher.run(teachers__page_32, 'Педагоги')
+    teachers__page_34 = next_page_searcher.run(teachers__page_33, 'Педагоги')
+    teachers__page_35 = next_page_searcher.run(teachers__page_34, 'Педагоги')
+    teachers__page_36 = next_page_searcher.run(teachers__page_35, 'Педагоги')
 
     return [['Логики: ' + logics__page_1],
             ['Математики: ' + mathematics__page_1, mathematics__page_2, mathematics__page_3, mathematics__page_4,
@@ -109,4 +157,15 @@ def run():
              economists__page_10, economists__page_11, economists__page_12, economists__page_13, economists__page_14,
              economists__page_15],
             ['Лингвисты: ' + linguists__page_1, linguists__page_2],
-            ['Психологи: ' + psychologists__page_1, psychologists__page_2, psychologists__page_3]]
+            ['Психологи: ' + psychologists__page_1, psychologists__page_2, psychologists__page_3],
+            ['Литературоведы: ' + literaturers__page_1, literaturers__page_2, literaturers__page_3,
+             literaturers__page_4],
+            ['Искусствоведы: ' + art_historians__page_1, art_historians__page_2],
+            ['Педагоги: ' + teachers__page_1, teachers__page_2, teachers__page_3, teachers__page_4,
+             teachers__page_5, teachers__page_6, teachers__page_7, teachers__page_8, teachers__page_9,
+             teachers__page_10, teachers__page_11, teachers__page_12, teachers__page_13, teachers__page_14,
+             teachers__page_15, teachers__page_16, teachers__page_17, teachers__page_18, teachers__page_19,
+             teachers__page_20, teachers__page_21, teachers__page_22, teachers__page_23, teachers__page_24,
+             teachers__page_25, teachers__page_26, teachers__page_27, teachers__page_28, teachers__page_29,
+             teachers__page_30, teachers__page_31, teachers__page_32, teachers__page_33, teachers__page_34,
+             teachers__page_35, teachers__page_36]]
