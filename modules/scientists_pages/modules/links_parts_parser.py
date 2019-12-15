@@ -2,53 +2,29 @@ from bs4 import BeautifulSoup as bs
 from modules import session_generator
 
 
-def run():
-
+def run(link):
     # generation a new session
-    request = session_generator.run('https://ru.wikipedia.org/wiki/Категория:Социологи_по_алфавиту')
+    request = session_generator.run(link)
 
     if request.status_code == 200:
 
         # getting all unordered lists
         soup = bs(request.content, 'lxml')
-        all_ul = soup\
-            .find('div', attrs={'class', 'mw-category'})\
-            .find_all('ul')
-
-        # getting all list items
-        all_li = []
-        for li in all_ul:
-            result = li.find_all('li')
-            all_li.append(result)
-
-        # getting all links wrappers
-        all_a = []
-
-        for a in all_li[0]:
-            result = a.find_all('a')
-            all_a.append(result)
-
-        for a in all_li[1]:
-            result = a.find_all('a')
-            all_a.append(result)
-
-        for a in all_li[2]:
-            result = a.find_all('a')
-            all_a.append(result)
-
-        for a in all_li[3]:
-            result = a.find_all('a')
-            all_a.append(result)
-
-        for a in all_li[4]:
-            result = a.find_all('a')
-            all_a.append(result)
-
-        # getting all links values
         all_href = []
-        for href in all_a:
-            result = href[0]['href']
-            all_href.append(result)
+
+        # error handling
+        try:
+            all_a = soup \
+                .find('div', attrs={'class', 'mw-category'}) \
+                .find_all('a')
+
+            # extracting links parts
+            for href in all_a:
+                result = href['href']
+                all_href.append(result)
+
+        except AttributeError:
+            pass
 
         return all_href
 
