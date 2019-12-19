@@ -32,9 +32,13 @@ def run():
     # print(str(next_page_centralizer.run()))
     # print('Закончена централизация ссылок в одном массиве!\n')
     #
-    print('Запущен парсер страниц ученых:')
-    print(str(scientists_pages_parser.run()))
-    print('Закончен парсер страниц ученых!\n')
+    # print('Запущен парсер страниц ученых:')
+    # print(str(scientists_pages_parser.run()))
+    # print('Закончен парсер страниц ученых!\n')
+    #
+    print('Запущен конструктор полных ссылок ученых:')
+    print(str(full_links_constructor.run()))
+    print('Закончен конструктор полных ссылок ученых!\n')
 
 
 if __name__ == '__main__':
