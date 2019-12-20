@@ -2,20 +2,25 @@ from bs4 import BeautifulSoup as bs
 from modules import session_generator
 
 
-def run(link, sciencetist_type, following_page=1):
+def get_next_page(link, scientist_type, following_page=1):
     # generation a new session
-    request = session_generator.run(link)
+    request = session_generator.get_session(link)
 
-    if request.status_code == 200:
+    if request.status_code != 200:
+        return None
 
-        # getting the part link
-        soup = bs(request.content, 'lxml')
-        part_page_link = soup.find_all(title='Категория:' + sciencetist_type + ' по алфавиту')[following_page]['href']
+    # getting the part link
+    soup = bs(request.content, 'lxml').find_all(title='Категория:' + scientist_type + ' по алфавиту')
 
-        # constructing the full link
-        full_page_link = 'https://ru.wikipedia.org' + part_page_link
+    if soup == []:
+        return None
 
-        return full_page_link
+    attributes = soup[following_page]
 
+    if attributes.next_element == 'Предыдущая страница':
+        return None
     else:
-        return 'Connection error'
+        part_page_link = attributes['href']
+        return 'https://ru.wikipedia.org' + part_page_link
+
+

@@ -1,44 +1,54 @@
-from modules.scientists_pages.modules import links_parts_parser
-from modules.scientists_pages.modules import full_links_constructor
 from modules.scientists_pages.modules import next_page_searcher
-from modules.scientists_pages.modules.next_pages_parser import next_pages_parser_1
-from modules.scientists_pages.modules.next_pages_parser import next_pages_parser_2
-from modules.scientists_pages.modules import next_page_centralizer
-from modules.scientists_pages.modules import scientists_pages_parser
+from modules.scientists_pages.modules.scientists_links_writer import write_scientists_links
+from modules.scientists_pages.modules.scientists_link_parser import get_scientists_links
+from modules.scientists_pages.modules.scientists_category_parser import get_all_category_pages
 
 
 def run():
-    # print('Запущен парсер частей ссылок ученых:')
-    # print(str(links_parts_parser.run()))
-    # print('Закончен парсер частей ссылок ученых!\n')
-    #
-    # print('Запущен конструктор полных ссылок ученых:')
-    # print(str(full_links_constructor.run()))
-    # print('Закончен конструктор полных ссылок ученых!\n')
-    #
-    # print('Запущен поиск ссылки следующей страницы ученых:')
-    # print(str(next_page_searcher.run()))
-    # print('Закончен поиск ссылки следующей страницы ученых!\n')
-    #
-    # print('Запущен парсер ссылок всех страниц ученых:')
-    # print(str(next_pages_parser_1.run()))
-    # print('Закончен парсер ссылок всех страниц ученых!\n')
-    #
-    # print('Запущен парсер ссылок всех страниц ученых:')
-    # print(str(next_pages_parser_2.run()))
-    # print('Закончен парсер ссылок всех страниц ученых!\n')
-    #
-    # print('Запущена централизация ссылок в одном массиве:')
-    # print(str(next_page_centralizer.run()))
-    # print('Закончена централизация ссылок в одном массиве!\n')
-    #
-    # print('Запущен парсер страниц ученых:')
-    # print(str(scientists_pages_parser.run()))
-    # print('Закончен парсер страниц ученых!\n')
-    #
-    print('Запущен конструктор полных ссылок ученых:')
-    print(str(full_links_constructor.run()))
-    print('Закончен конструктор полных ссылок ученых!\n')
+    # Set all types of scientists
+    scientist_types = [
+        #'Математики',
+        'Антропологи',
+        #'Историки',
+        #'Социологи',
+        #'Лингвисты',
+        #'Логики',
+        #'Статистики',
+        #'Правоведы',
+        #'Политологи',
+        #'Экономисты',
+        #'Психологи',
+        #'Литературоведы',
+        #'Искусствоведы'
+        #'Педагоги',
+        #'Журналисты',
+        #'Филологи',
+        #'Философы',
+        #'Астрономы',
+        #'Биологи',
+        #'Ветеринары',
+        #'Географы',
+        #'Геологи',
+        #'Медики',
+        #'Врачи',
+        #'Океанографы',
+        #'Физики',
+        #'Химики'
+    ]
+
+    print('Запущен парсер оглавлений:')
+    category_pages = get_all_category_pages(scientist_types)
+    print('Закончен парсинг оглавлений!\n')
+
+
+    print('Запущен парсер ссылок всех страниц ученых:')
+    scientists_links = []
+    for page in category_pages:
+        scientists_links += get_scientists_links(page)
+    print('Закончен парсер ссылок всех страниц ученых!\n')
+
+    print('Запущено сохранение ссылок всех страниц ученых:')
+    write_scientists_links(scientists_links)
 
 
 if __name__ == '__main__':
