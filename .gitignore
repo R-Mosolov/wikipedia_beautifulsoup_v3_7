@@ -1,6 +1,6 @@
 
 venv/
 
-modules/scientists_pages/modules/data/__pycache__/
+__pycache__/
 
 .idea/
