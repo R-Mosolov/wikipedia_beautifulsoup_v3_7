@@ -1,4 +1,6 @@
 from modules.scientists_pages.modules import next_page_searcher
+from modules.sciences_pages.modules.category_links_generator import get_working_links
+from modules.sciences_pages.modules.category_links_generator import get_scientist_type
 
 
 def get_next_pages(link, scientist_type):
@@ -11,15 +13,13 @@ def get_next_pages(link, scientist_type):
         return [next_page][:-1]
 
 
-def get_all_category_pages(categories):
+def get_all_category_pages(base_links=get_working_links()):
     result = []
 
-    sort_type = '_по_алфавиту'
-
-    for scientist_type in categories:
+    for link in [base_links]:
+        scientist_type = get_scientist_type(link)
         print('Collecting pages for {}:'.format(scientist_type))
-        base_link = 'https://ru.wikipedia.org/wiki/Категория:' + scientist_type + sort_type
-        pages = [base_link] + get_next_pages(base_link, scientist_type)
+        pages = [link] + get_next_pages(link, scientist_type)
         print('Collected {} pages.'.format(len(pages)))
         print()
         result += pages

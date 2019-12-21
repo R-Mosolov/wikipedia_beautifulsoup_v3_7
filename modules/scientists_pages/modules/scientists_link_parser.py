@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup as bs
 from modules import session_generator
+from urllib.parse import unquote
 
 
 def get_scientists_links(link):
@@ -24,6 +25,6 @@ def get_scientists_links(link):
     except AttributeError:
         pass
 
-    print('Collecting scientists pages for {}:'.format(str(link)))
+    print('Collecting scientists pages for {}:'.format(unquote(link)))
     print('Collected {} scientists pages.'.format(len(all_href)))
     return all_href
