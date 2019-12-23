@@ -1,7 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc27cd19-9ea2-4918-86eb-57ce2ae919e1" name="Default Changelist" comment="" />
+    <list default="true" id="fc27cd19-9ea2-4918-86eb-57ce2ae919e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/modules/base_modules/results_writers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_антропологи.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_астрономы.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_биологи.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_ветеринары.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_врачи.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_географы.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_геологи.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_журналисты.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_искусствоведы.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_историки.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_лингвисты.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_литературоведы.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_логики.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_математики.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_медики.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_метеорологи.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_океанографы.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_педагоги.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_политологи.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_правоведы.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_психологи.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_социологи.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_статистики.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_физики.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_филологи.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_философы.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_химики.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_pages/data/scientists_pages_экономисты.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/age_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/data/parsed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/data/parsed_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/data/parsed_scientists_ветеринары.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/data/parsed_scientists_врачи.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/data/parsed_scientists_географы.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/data/parsed_scientists_журналисты.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/data/parsed_scientists_литературоведы.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/data/parsed_scientists_медики.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/data/parsed_scientists_метеорологи.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/data/parsed_scientists_океанографы.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/data/parsed_scientists_политологи.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/data/parsed_scientists_филологи.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/dates_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/scientists_parser/text_processing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/life_dates/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/life_dates/modules/ages_handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/life_dates/modules/ages_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/life_dates/modules/birth_years_parser.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/life_dates/modules/data/ages_arr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/life_dates/modules/data/unsorted_ages.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/life_dates/modules/month_converter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/sciences_pages/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/sciences_pages/data/category_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/sciences_pages/data/category_links.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/sciences_pages/modules/category_links_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/sciences_pages/category_links_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/scientists_pages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/scientists_pages/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/scientists_pages/modules/data/scientists_pages.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/scientists_pages/modules/next_page_searcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/scientists_pages/next_page_searcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/scientists_pages/modules/scientists_category_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/scientists_pages/scientists_category_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/scientists_pages/modules/scientists_link_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/scientists_pages/scientists_link_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/scientists_pages/modules/scientists_links_writer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/session_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/base_modules/session_generator.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,34 +80,86 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Uc3NWCsz7fesRYBQohUiKAcGV5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/scientists_pages/modules/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/modules/scientists_pages/modules/next_pages_parser" />
-      <recent name="$PROJECT_DIR$/modules/life_dates/modules/data" />
-      <recent name="$PROJECT_DIR$/modules" />
-      <recent name="$PROJECT_DIR$/modules/sciences_pages/modules" />
-      <recent name="$PROJECT_DIR$/modules/scientists_pages" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/modules/scientists_pages/modules/data" />
       <recent name="$PROJECT_DIR$/modules/scientists_pages/modules/next_pages_parser" />
       <recent name="$PROJECT_DIR$/modules" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/scientists_pages" />
+      <recent name="$PROJECT_DIR$/modules/sciences_pages" />
+      <recent name="$PROJECT_DIR$/modules/base_modules" />
+      <recent name="$PROJECT_DIR$/modules/scientists_parser" />
+      <recent name="$PROJECT_DIR$/modules/sciences_pages/modules" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.__init__">
-    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.__init__ (2)">
+    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wikipedia_beautifulsoup_v3_7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__init__ (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="wikipedia_beautifulsoup_v3_7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/scientists_parser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/scientists_parser/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="wikipedia_beautifulsoup_v3_7" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,7 +181,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dates_processing" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="wikipedia_beautifulsoup_v3_7" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -71,12 +189,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/life_dates" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/scientists_parser" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/life_dates/__init__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/scientists_parser/dates_processing.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +203,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="full_links_constructor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="parser" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="wikipedia_beautifulsoup_v3_7" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,12 +211,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/scientists_pages/modules" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/scientists_parser" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/scientists_pages/modules/full_links_constructor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/scientists_parser/parser.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,57 +225,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="wikipedia_beautifulsoup_v3_7" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/scientists_pages/modules" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/scientists_pages/modules/test__excel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test__txt" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="wikipedia_beautifulsoup_v3_7" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules/scientists_pages/modules" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/scientists_pages/modules/test__text.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.__init__ (1)" />
+      <item itemvalue="Python.__init__ (2)" />
+      <item itemvalue="Python.dates_processing" />
+      <item itemvalue="Python.parser" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__init__ (2)" />
         <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.parser" />
+        <item itemvalue="Python.dates_processing" />
         <item itemvalue="Python.__init__ (1)" />
-        <item itemvalue="Python.test__txt" />
-        <item itemvalue="Python.full_links_constructor" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -195,82 +276,128 @@
       <workItem from="1576431276151" duration="13092000" />
       <workItem from="1576779183466" duration="347000" />
       <workItem from="1576779704554" duration="6502000" />
+      <workItem from="1576868971336" duration="50000" />
+      <workItem from="1576869040216" duration="22249000" />
+      <workItem from="1576915434782" duration="65000" />
+      <workItem from="1576915528694" duration="20698000" />
+      <workItem from="1577001296415" duration="22163000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="408" y="185" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1576247871614">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577016053250">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="408" y="185" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1576247871614" />
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576781403737">
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1577016053250" />
+    <state x="408" y="185" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577001180092">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1576781403737" />
-    <state width="1398" height="200" key="GridCell.Tab.0.bottom" timestamp="1576787139863">
+    <state x="408" y="185" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1577001180092" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576909605079">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576787139863" />
-    <state width="1398" height="200" key="GridCell.Tab.0.center" timestamp="1576787139862">
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1576909605079" />
+    <state x="415" y="76" key="#next_pages_parser_1" timestamp="1576878372582">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="200" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576787139862" />
-    <state width="1398" height="200" key="GridCell.Tab.0.left" timestamp="1576787139861">
+    <state x="415" y="76" key="#next_pages_parser_1/0.0.1440.900@0.0.1440.900" timestamp="1576878372582" />
+    <state x="465" y="313" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1576878302818">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="200" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576787139861" />
-    <state width="1398" height="200" key="GridCell.Tab.0.right" timestamp="1576787139862">
+    <state x="465" y="313" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1576878302818" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1577024914274">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="200" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576787139862" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1576270390433">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577024914274" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1577024914273">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576270390433" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1576270390431">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577024914273" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1577024914272">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1576270390431" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1576270390431">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577024914272" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1577024914273">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1576270390431" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1576270390432">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577024914273" />
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1576915389326">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1576270390432" />
-    <state x="229" y="89" key="SettingsEditor" timestamp="1575642701416">
+    <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576915389326" />
+    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1576915389325">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1575642701416" />
-    <state x="329" y="180" width="782" height="540" key="find.popup" timestamp="1576433948738">
+    <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1576915389325" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1576915389325">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="329" y="180" width="782" height="540" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1576433948738" />
+    <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1576915389325" />
+    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1576915389326">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1576915389326" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1576869168757">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1576869168757" />
+    <state x="378" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576877725149">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="378" y="72" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900@0.0.1440.900" timestamp="1576877725149" />
+    <state x="329" y="180" width="782" height="540" key="find.popup" timestamp="1577022517271">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="329" y="180" width="782" height="540" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1577022517271" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1576195498520">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1440.900@0.0.1440.900" timestamp="1576195498520" />
+    <state x="320" y="116" key="scopes" timestamp="1576878136837">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="116" key="scopes/0.0.1440.900@0.0.1440.900" timestamp="1576878136837" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1577020873217">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1577020873217" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$links_generator.coverage" NAME="links_generator Coverage Results" MODIFIED="1576925628366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/sciences_pages/modules" />
     <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$test__txt.coverage" NAME="test__txt Coverage Results" MODIFIED="1576781317786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_pages/modules" />
-    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$scientists_pages_parser.coverage" NAME="scientists_pages_parser Coverage Results" MODIFIED="1576441670533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_pages/modules" />
-    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1576787101924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/life_dates" />
-    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$next_pages_parser.coverage" NAME="next_pages_parser Coverage Results" MODIFIED="1576338812235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_pages/modules" />
-    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$links_parts_parser.coverage" NAME="links_parts_parser Coverage Results" MODIFIED="1576436781809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_pages/modules" />
-    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$sciences_generator.coverage" NAME="sciences_generator Coverage Results" MODIFIED="1576258088187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
-    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$life_duration.coverage" NAME="life_duration Coverage Results" MODIFIED="1575653289328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/life_dates_parser" />
-    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1576782071689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_pages" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$links_parts_parser.coverage" NAME="links_parts_parser Coverage Results" MODIFIED="1576881420951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_pages/modules" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$scientists_links_writer.coverage" NAME="scientists_links_writer Coverage Results" MODIFIED="1577016239352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/base_modules" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$__init____3_.coverage" NAME="__init__ (3) Coverage Results" MODIFIED="1576320867450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/life_dates" />
     <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$links_constructor.coverage" NAME="links_constructor Coverage Results" MODIFIED="1576248253902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
-    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1576344066810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/sciences_pages" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$__init____2_.coverage" NAME="__init__ (2) Coverage Results" MODIFIED="1577024914264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_parser" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$scientists_pages_parser.coverage" NAME="scientists_pages_parser Coverage Results" MODIFIED="1576441670533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_pages/modules" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1577022919146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_pages" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$links_quality_tester.coverage" NAME="links_quality_tester Coverage Results" MODIFIED="1576909230705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/sciences_pages/modules" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$next_pages_parser_1.coverage" NAME="next_pages_parser_1 Coverage Results" MODIFIED="1576877912795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_pages/modules/next_pages_parser" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$parser.coverage" NAME="parser Coverage Results" MODIFIED="1577021263322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_parser" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$life_duration.coverage" NAME="life_duration Coverage Results" MODIFIED="1575653289328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/life_dates_parser" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$full_links_constructor.coverage" NAME="full_links_constructor Coverage Results" MODIFIED="1576780579170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_pages/modules" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$links_targets_generator.coverage" NAME="links_targets_generator Coverage Results" MODIFIED="1576869991616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/sciences_pages/modules" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$age_processing.coverage" NAME="age_processing Coverage Results" MODIFIED="1577013528135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_parser" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$session_generator.coverage" NAME="session_generator Coverage Results" MODIFIED="1576870437460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$paginator.coverage" NAME="paginator Coverage Results" MODIFIED="1576254128602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$sciences_generator.coverage" NAME="sciences_generator Coverage Results" MODIFIED="1576258088187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$links_parser.coverage" NAME="links_parser Coverage Results" MODIFIED="1576248211864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$dates_processing.coverage" NAME="dates_processing Coverage Results" MODIFIED="1577020408578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_parser" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$next_pages_parser.coverage" NAME="next_pages_parser Coverage Results" MODIFIED="1576338812235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_pages/modules" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1577018672339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$next_page_searcher.coverage" NAME="next_page_searcher Coverage Results" MODIFIED="1576878484810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_pages/modules" />
     <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$test.coverage" NAME="test Coverage Results" MODIFIED="1576780123507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_pages/modules" />
     <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$age_constructor.coverage" NAME="age_constructor Coverage Results" MODIFIED="1576199201789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/life_dates_parser" />
-    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$__init____3_.coverage" NAME="__init__ (3) Coverage Results" MODIFIED="1576320867450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/life_dates" />
-    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$paginator.coverage" NAME="paginator Coverage Results" MODIFIED="1576254128602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
-    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$full_links_constructor.coverage" NAME="full_links_constructor Coverage Results" MODIFIED="1576780579170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_pages/modules" />
-    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$links_parser.coverage" NAME="links_parser Coverage Results" MODIFIED="1576248211864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$next_pages_parser__1_.coverage" NAME="next_pages_parser Coverage Results" MODIFIED="1576880484682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/scientists_pages/modules" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$birth_years_parser.coverage" NAME="birth_years_parser Coverage Results" MODIFIED="1576927000579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/life_dates/modules" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$ages_parser.coverage" NAME="ages_parser Coverage Results" MODIFIED="1577012191414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/life_dates/modules" />
+    <SUITE FILE_PATH="coverage/wikipedia_beautifulsoup_v3_7$full_links_generator.coverage" NAME="full_links_generator Coverage Results" MODIFIED="1576872655747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules/sciences_pages/modules" />
   </component>
 </project>
