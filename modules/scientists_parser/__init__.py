@@ -19,7 +19,7 @@ def run():
 
         if os.path.isfile(result_path):
             print('File {} already exists. Go to next.'.format(scientist_type.lower() + '.csv'))
-            df = pd.read_csv(result_path)
+            df = pd.read_csv(result_path, index_col=0)
             parsed_data.append(df)
             file.close()
             continue
