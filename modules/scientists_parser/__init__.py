@@ -12,7 +12,6 @@ def run():
     print('Started', dt.now())
     parsed_data = []
     for science in scientists_pages:
-        print(science)
         file = open(data_path + '/' + science, 'r')
         scientist_type = next(file).strip('\n')
         result_path = 'data/parsed_scientists_' + scientist_type.lower() + '.csv'
