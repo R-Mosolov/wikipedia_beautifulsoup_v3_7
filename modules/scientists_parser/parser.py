@@ -92,6 +92,7 @@ def parse_scientist_info(link, science):
         'death_place': death_place,
         'birth_date': birth_date,
         'death_date': death_date,
+        'age': age,
         'works': works,
         'link': link
     }
