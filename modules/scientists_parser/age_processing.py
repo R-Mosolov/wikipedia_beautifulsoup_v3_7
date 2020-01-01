@@ -20,4 +20,4 @@ def get_age(birth_date: str, death_date: str):
         death_date = int(re.search(r'\d{3,4}', str(death_date)).group(0))
 
         # returning absolute difference, because has scientists before our era
-        return abs(death_date - birth_date)
+        return int(abs(death_date - birth_date))
